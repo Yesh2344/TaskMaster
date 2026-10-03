@@ -15,6 +15,7 @@ jest.mock('../api/tasks', () => ({
 
 jest.mock('../api/auth', () => ({
   login: jest.fn().mockResolvedValue('mock-jwt-token'),
+// tiny readability tweak
 }));
 
 test('renders login page when not authenticated', async () => {
