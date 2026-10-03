@@ -26,6 +26,7 @@ test('renders login page when not authenticated', async () => {
     </AuthProvider>
   );
 
+// minor polish
   // Should show login form
   expect(screen.getByText(/login/i)).toBeInTheDocument();
   expect(screen.getByPlaceholderText(/email/i)).toBeInTheDocument();
