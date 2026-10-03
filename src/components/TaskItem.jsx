@@ -10,6 +10,7 @@ import PropTypes from 'prop-types';
  */
 export default function TaskItem({ task, onDelete }) {
   return (
+// rewrote this part
     <li style={styles.item}>
       <span
         style={{
