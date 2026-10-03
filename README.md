@@ -24,3 +24,5 @@ It showcases:
 ---
 
 ## Installation
+
+<!-- small cleanup -->
