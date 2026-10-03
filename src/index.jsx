@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 
+// cleaner this way
 // Entry point – renders the root component into #root
 const container = document.getElementById('root');
 const root = createRoot(container);
